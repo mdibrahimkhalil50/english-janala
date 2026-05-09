@@ -86,7 +86,33 @@
     </h2>
     <div id="level-container" class="flex flex-wrap gap-5 justify-center"></div>
    </section>
-
+<!-- ------------------------------------------- search option added -->
+   <section class="flex justify-center">
+  <div class="search flex gap-2">
+  <div>
+    <label class="input validator join-item">
+      
+        <g
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          stroke-width="2.5"
+          fill="none"
+          stroke="currentColor"
+        >
+          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+        </g>
+      </svg>
+      <input id="input-search" type="text" placeholder="Search Vocabulary" required />
+    </label>
+    
+  </div>
+  <button id="btn-search" class="btn btn-primary join-item">Search</button>
+</div>
+   </section>
+    <section id="spinner" class="flex justify-center py-10 items-center hidden">
+      <span class="loading loading-spinner loading-xl"></span>
+    </section>
    <section id="word-container" class="bg-blue-100 py-10 w-11/12 mx-auto grid grid-cols-3 gap-5">
    <div class="text-center bg-sky-200 col-span-full text-semibold space-y-5 rounded-xl">
     <p class="text-gray-600">আপনি এখনো কোন lesson Select করেন নি</p>
